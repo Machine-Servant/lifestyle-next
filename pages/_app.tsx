@@ -6,7 +6,6 @@ type AppProps = {
 };
 
 const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
-  console.log('hi there');
   return <Component {...pageProps} />;
 };
 
